@@ -1,21 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="shortcut icon" href="#" type="image/x-icon">
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header class="header">
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div>
+          <img width="50" src="img/icon01.png" alt="logo" />
+          <p>Karina Khablo</p>
+          <p>Fitnes&bodybuilding</p>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="#">Про мене</a>
+            </li>
+            <li>
+              <a href="#">Види співпраці</a>
+            </li>
+            <li>
+              <a href="#">Процесс</a>
+            </li>
+            <li>
+              <a href="#">Контакти</a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/khablo_karina/"
+                target="_blank"
+              >
+                <img width="25" src="img/instagram.png" alt="logoinstagram" />
+              </a>
+            </li>
+            <li>
+              <a href="https://t.me/khablo_karina" target="_blank">
+                <img width="25" src="img/telegram.png" alt="logotelegram" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <main class="main">
-        
+    <main>
+      <section class="header-hero">
+        <div>
+          <h2>Час починати</h2>
+          <p>Підтримуй своє тіло у формі</p>
+          <p>Займайся зі мною фітнесом де б ти не знаходився</p>
+        </div>
+        <div>
+          <a href="#">Стартуй зараз</a>
+        </div>
+        <div>
+          <img width="100" src="img/karinalogo.png" alt="karinalogo" />
+        </div>
+      </section>
+      <section class="views-of-work">
+        <div>
+          <article>
+            <img width="70" src="img/addmuskuls.png" />
+            <h3>Нарощування м'язів</h3>
+            <a href="#">Читай детально</a>
+          </article>
+          <article>
+            <img width="70" src="img/addmuskuls.png" />
+            <h3>Зниження ваги</h3>
+            <a href="#">Читай детально</a>
+          </article>
+          <article>
+            <img width="70" src="img/addmuskuls.png" />
+            <h3>Підтримання форми</h3>
+            <a href="#">Читай детально</a>
+          </article>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-        
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
