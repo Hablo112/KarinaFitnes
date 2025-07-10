@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitnes Karina</title>
     <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -13,79 +13,112 @@
     ></script>
   </head>
 
-  <body>
-    <header>
-      <div>
-        <div>
-          <img width="50" src="img/icon01.png" alt="logo" />
-          <p>Karina Khablo</p>
-          <p>Fitnes&bodybuilding</p>
+  <body class="about-page">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <img
+            class="header__img"          
+            src="img/logobody.png"
+            alt="logo">
         </div>
-        <div>
-          <ul>
-            <li>
-              <a href="#">Про мене</a>
-            </li>
-            <li>
-              <a href="#">Види співпраці</a>
-            </li>
-            <li>
-              <a href="#">Процесс</a>
-            </li>
-            <li>
-              <a href="#">Контакти</a>
-            </li>
-            <li>
+        <div class="header__logotext">
+            <p class="header__name">Karina Khablo</p>
+            <p class="header__specialty">Fitnes&bodybuilding</p>
+        </div>
+        <div class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item">
               <a
+                class="header__menu-link"
                 href="https://www.instagram.com/khablo_karina/"
                 target="_blank"
               >
-                <img width="25" src="img/instagram.png" alt="logoinstagram" />
+                <img
+                  class="header__icon"
+                  width="25"
+                  src="img/instagram.png"
+                  alt="Instagram logo"
+                />
               </a>
             </li>
-            <li>
-              <a href="https://t.me/khablo_karina" target="_blank">
-                <img width="25" src="img/telegram.png" alt="logotelegram" />
+            <li class="header__menu-item">
+              <a
+                class="header__menu-link"
+                href="https://t.me/khablo_karina"
+                target="_blank"
+              >
+                <img
+                  class="header__icon"
+                  width="25"
+                  src="img/telegram.png"
+                  alt="Telegram logo"
+                />
               </a>
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <main>
-      <section class="header-hero">
-        <div>
-          <h2>Час починати</h2>
-          <p>Підтримуй своє тіло у формі</p>
-          <p>Займайся зі мною фітнесом де б ти не знаходився</p>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title">Час починати</h2>
+          <p class="hero__subtitle">Підтримуй своє тіло у формі</p>
+          <p class="hero__description">
+            Займайся зі мною фітнесом де б ти не знаходився
+          </p>
         </div>
-        <div>
-          <a href="#">Стартуй зараз</a>
+        <div class="hero__cta">
+          <a class="hero__button" href="#">Стартуй зараз</a>
         </div>
-        <div>
-          <img width="100" src="img/karinalogo.png" alt="karinalogo" />
+        <div class="hero__image-wrapper">
+          <img
+            class="hero__image"
+            width="100"
+            src="img/karinalogo.png"
+            alt="Karina logo"
+          />
         </div>
       </section>
-      <section class="views-of-work">
-        <div>
-          <article>
-            <img width="70" src="img/addmuskuls.png" alt="photo" />
-            <h3>Нарощування м'язів</h3>
-            <a href="#">Читай детально</a>
+
+      <section class="work-types">
+        <div class="work-types__list">
+          <article class="work-types__item">
+            <img
+              class="work-types__icon"
+              width="70"
+              src="img/addmuskuls.png"
+              alt="photo"
+            />
+            <h3 class="work-types__title">Нарощування м'язів</h3>
+            <a class="work-types__link" href="#">Читай детально</a>
           </article>
-          <article>
-            <img width="70" src="img/addmuskuls.png" alt="photo" />
-            <h3>Зниження ваги</h3>
-            <a href="#">Читай детально</a>
+          <article class="work-types__item">
+            <img
+              class="work-types__icon"
+              width="70"
+              src="img/addmuskuls.png"
+              alt="photo"
+            />
+            <h3 class="work-types__title">Зниження ваги</h3>
+            <a class="work-types__link" href="#">Читай детально</a>
           </article>
-          <article>
-            <img width="70" src="img/addmuskuls.png" alt="photo" />
-            <h3>Підтримання форми</h3>
-            <a href="#">Читай детально</a>
+          <article class="work-types__item">
+            <img
+              class="work-types__icon"
+              width="70"
+              src="img/addmuskuls.png"
+              alt="photo"
+            />
+            <h3 class="work-types__title">Підтримання форми</h3>
+            <a class="work-types__link" href="#">Читай детально</a>
           </article>
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <footer class="footer"></footer>
   </body>
 </html>
