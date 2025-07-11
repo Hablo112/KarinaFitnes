@@ -1,27 +1,45 @@
 .about-page {
   background-color: var(--border-color);
-  color: var(--text-color);
 
   .header {
     background-image: url("../img/karinalogo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    .header__img {
-      background-color: #faa6db;
-    }
+
     .header__wrapper {
-      .header__logotext {
-        font-size: 13px;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-align: center;
+      display: flex;
+    }
+
+    .header__logotext {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: left;
+    }
+    .header__menu {
+      display: flex;
+      flex-direction: row;
+
+      .header__icon {
+        width: 25px;
+      }
+    }
+
+    .hero__content {
+      text-align: center;
+      .hero__title {
+        font-size: 35px;
+        color: var(--accent-color);
+      }
+      .hero__button {
+        color: var(--accent-color);
+        text-decoration: none;
+        background-color: var(--border-color);
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
-}
-
-.header__menu-item {
-    display: flex;
-    flex-direction: column;
 }
