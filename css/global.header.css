@@ -2,10 +2,12 @@
   background-color: var(--border-color);
 
   .header {
-    background-image: url("../img/karinalogo.png");
+    background-image: url(../img/karinalogo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    min-height: 800px;
 
     .header__wrapper {
       justify-content: space-between;
@@ -26,7 +28,6 @@
       padding-top: 5px;
 
       .header__menu-item {
-        
         &:hover {
           color: var(--accent-color);
         }
@@ -41,14 +42,22 @@
       padding-top: 300px;
       padding-bottom: 100px;
       text-align: center;
+
       .hero__title {
         font-size: 35px;
         color: var(--accent-color);
+        padding-bottom: 20px;
+      }
+      .hero__subtitle {
+        padding: 5px; 
       }
       .hero__button {
         color: var(--accent-color);
         text-decoration: none;
         background-color: var(--border-color);
+        border-radius: 15px;
+        
+        padding: 5px 10px;
         &:hover {
           text-decoration: underline;
         }
