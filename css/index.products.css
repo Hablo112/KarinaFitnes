@@ -1,0 +1,13 @@
+.carousel-slides{
+  display: flex;
+  justify-content: center;
+}
+  .carousel {
+  max-width: 300px;
+
+
+  
+  }
+.carousel-caption {
+  color: black;
+}

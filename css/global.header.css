@@ -15,11 +15,12 @@
     }
 
     .header__logotext {
-      font-size: 10px;
+      font-size: 15px;
       text-transform: uppercase;
       font-weight: bold;
       padding-left: 5px;
       padding-top: 5px;
+      color: brown;
     }
     .header__menu {
       display: flex;
@@ -45,7 +46,7 @@
 
       .hero__title {
         font-size: 35px;
-        color: var(--accent-color);
+        color: brown;
         padding-bottom: 20px;
       }
       .hero__subtitle {
