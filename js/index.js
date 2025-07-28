@@ -20,7 +20,7 @@ const slides = [
   '<div><img src="img/addmuskuls.png" alt="addmuskuls"></div>',
   '<div><img src="img/karinalogo.png" alt="karinalogo"></div>',
   '<div><img src="img/scena.jpg" alt="karinanascene"></div>',
-  '<div><img src="img/studia.jpg" alt="photostudia"></div>',
+  '<div><img src="img/karinascena.jpeg" alt="photostudia"></div>',
 ];
 
 const carousel = document.querySelector(".product-carousel__slide-container");
